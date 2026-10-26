@@ -4,7 +4,7 @@
 <!-- Generated: 2026-10-12T03:55:22.292Z -->
 
 > [!NOTE]
-> This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
+> This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuvr0j2k02sz01o9uv4ptbsd). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
 > A tiny motion-controlled digital pet, basically a desktop Tamagotchi. Totally not a Starboy.
 
@@ -42,13 +42,13 @@
 
 **4h**
 
-![Captura de pantalla 2026-10-11 215418](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/19c6640f740ccc0309b4596f90da0c1ecb33b9b45d55eb8b41037924ffa2d456.png)
+![Captura de pantalla 2026-10-11 215418](https://halflife.hackclub-assets.com/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/19c6640f740ccc0309b4596f90da0c1ecb33b9b45d55eb8b41037924ffa2d456.png)
 
-![Captura de pantalla 2026-10-11 202619](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/1efe5b3eb6f737e7e691afa6f7edd4cde9103da2f89004c54e850856a633d9f7.png)
+![Captura de pantalla 2026-10-11 202619](https://halflife.hackclub-assets.com/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/1efe5b3eb6f737e7e691afa6f7edd4cde9103da2f89004c54e850856a633d9f7.png)
 
-![Captura de pantalla 2026-10-10 165041](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/45e7423868fbfe722948c0a7a8ff96bdaef8ff7f08ed45229d8e955df39ff6c4.png)
+![Captura de pantalla 2026-10-10 165041](https://halflife.hackclub-assets.com/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/45e7423868fbfe722948c0a7a8ff96bdaef8ff7f08ed45229d8e955df39ff6c4.png)
 
-![Captura de pantalla 2026-10-11 202453](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/9ccf69f5ab239ba775d06ab7f9ec08f9ee375c79c4b9e3b7cdde19d34da652bd.png)
+![Captura de pantalla 2026-10-11 202453](https://halflife.hackclub-assets.com/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/9ccf69f5ab239ba775d06ab7f9ec08f9ee375c79c4b9e3b7cdde19d34da652bd.png)
 
 8 de octubre: ¡Por fin arreglé los errores de la PCB!
 
