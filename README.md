@@ -1,3 +1,4 @@
+<img width="1277" height="855" alt="Captura de pantalla 2026-10-27 011342" src="https://github.com/user-attachments/assets/e801b92f-12bc-4d51-b2ff-e0bb30c89152" />
 <img width="337" height="243" alt="Starbie project" src="https://github.com/user-attachments/assets/57240d31-14cc-4566-b902-7402a9034963" />
 
 # Starbie
