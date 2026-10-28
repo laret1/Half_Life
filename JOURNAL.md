@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) ([open the project](https://halflife.hackclub.com/projects/cmuvr0j2k02sz01o9uv4ptbsd)). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> A tiny motion-controlled digital pet, basically a desktop Tamagotchi. Totally not a Starboy.
+> Starbie es una mascota digital inspirada en los Tamagotchi. Utiliza una pantalla OLED para mostrar a la mascota y sus estadísticas, mientras que un sensor de movimiento MPU6050 permite interactuar con ella inclinando o moviendo el dispositivo. El proyecto está construido con un Seeed XIAO ESP32-C3, una pantalla OLED SSD1306 y diferentes sensores que permiten darle vida a la mascota. Cuenta con acciones como alimentarla, jugar con ella, acariciarla y dejarla dormir, además de estadísticas como energía, felicidad y hambre. Starbie combina programación, electrónica, diseño de PCB y fabricación de hardware en un pequeño dispositivo interactivo. El objetivo es crear una mascota digital física con la que se pueda interactuar de una manera diferente, aprendiendo al mismo tiempo sobre microcontroladores, sensores y desarrollo de proyectos electrónicos.
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
@@ -16,7 +16,7 @@
 
 1. [2026-10-10: Work session](#2026-10-10-work-session)
 2. [2026-10-11: Work session](#2026-10-11-work-session)
-3. [2026-10-11: ![Captura de pantalla 2026-10-11 215418](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/19c6640f740ccc0309b4596f90da0c1ecb33b9b45d55eb8b41037924ffa2d](#2026-10-11-captura-de-pantalla-2026-10-11-215418httpshalflif)
+3. [2026-10-11: ![Captura de pantalla 2026-10-11 215418](https://halflife.hackclub-assets.com/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/19c6640f740ccc0309b4596f90da0c1ecb33b9b45d55eb8b41037924ffa2d456.png)](#2026-10-11-captura-de-pantalla-2026-10-11-215418httpshalflif)
 4. [2026-10-27: Hoy terminé de organizar y corregir la documentación de mi proyecto Starbie. Primero, actualicé el README de GitHub para explicar mejor qué hice, cómo funcionan los controles y cómo se conectan los co](#2026-10-27-hoy-termin-de-organizar-y-corregir-la-documentaci)
 
 ## Design
@@ -39,7 +39,7 @@
 
 [Timelapse](https://lookout.hackclub.com/api/media/4e82186d-318f-475d-9733-4607b1966a22/video.mp4)
 
-### 2026-10-11: ![Captura de pantalla 2026-10-11 215418](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/19c6640f740ccc0309b4596f90da0c1ecb33b9b45d55eb8b41037924ffa2d
+### 2026-10-11: ![Captura de pantalla 2026-10-11 215418](https://halflife.hackclub-assets.com/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/19c6640f740ccc0309b4596f90da0c1ecb33b9b45d55eb8b41037924ffa2d456.png)
 
 **4h**
 
@@ -51,20 +51,21 @@
 
 ![Captura de pantalla 2026-10-11 202453](https://halflife.hackclub-assets.com/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/9ccf69f5ab239ba775d06ab7f9ec08f9ee375c79c4b9e3b7cdde19d34da652bd.png)
 
-8 de octubre: ¡Por fin arreglé los errores de la PCB!
+I finally fixed the PCB errors!
 
-¡Por fin logré solucionar varios errores de mi diseño de PCB en KiCad! La verdad, al principio me estaba confundiendo con tantas advertencias y errores, especialmente los relacionados con las conexiones y los bordes de la placa (Edge.Cuts), pero poco a poco fui entendiendo qué estaba mal y cómo solucionarlo.
+I’ve finally managed to resolve several errors in my PCB design in KiCad! To be honest, at first, I was overwhelmed by all the warnings and errors—especially those related to connections and the board edges (Edge.Cuts)—but little by little, I figured out what was wrong and how to fix it.
 
-Dediqué un buen rato a revisar el diseño, corregir las conexiones y asegurarme de que los componentes y los bordes de la placa estuvieran configurados correctamente. También aprendí un poco más sobre cómo funcionan las etiquetas en KiCad y cómo reutilizarlas para conectar distintas partes del circuito sin tener que dibujar cables por todas partes.
+I spent quite a bit of time reviewing the design, correcting connections, and ensuring that the components and board edges were configured properly. I also learned more about how labels work in KiCad and how to use them to connect different parts of the circuit without having to draw wires all over the place.
 
-Después, me puse a mejorar el proyecto y organizar los archivos para subirlo a GitHub. Quería que el repositorio estuviera ordenado y fuera fácil de entender, con los archivos de KiCad y los demás recursos del proyecto en sus respectivas carpetas.
+After that, I worked on refining the project and organizing the files to upload them to GitHub. I wanted the repository to be tidy and easy to navigate, with the KiCad files and other project resources placed in their own dedicated folders.
 
-Todavía hay cosas que quiero mejorar, pero solucionar esos errores se sintió como un avance real. Una cosa es seguir un tutorial y otra muy diferente es entender qué está fallando y encontrar la manera de arreglarlo por tu cuenta.
+There are still things I’d like to improve, but resolving those errors felt like a real breakthrough. It’s one thing to follow a tutorial, but it’s something else entirely to understand what’s going wrong and figure out how to fix it on your own.
 
-Ahora puedo seguir mejorando la PCB, organizar mejor el proyecto y compartir mi progreso en GitHub para que otras personas puedan verlo.
+Now I can continue refining the PCB, better organize the project, and share my progress on GitHub for others to see.
 
-Ademas hize mi video que apenas era una idea pero ya esta no es lo mejor pero lo intente
-En resumen: Corregí errores de diseño de la PCB en KiCad, mejoré las conexiones y la organización del proyecto,  subí los archivos a GitHub y edite mi video.
+I also put together a video—it started as just an idea, and while it might not be perfect, I gave it a shot!
+
+In short: I fixed PCB design errors in KiCad, improved the connections and project organization, uploaded the files to GitHub, and edited my video.
 
 ### 2026-10-27: Hoy terminé de organizar y corregir la documentación de mi proyecto Starbie. Primero, actualicé el README de GitHub para explicar mejor qué hice, cómo funcionan los controles y cómo se conectan los co
 
