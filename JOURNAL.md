@@ -17,7 +17,7 @@
 1. [2026-10-10: Work session](#2026-10-10-work-session)
 2. [2026-10-11: Work session](#2026-10-11-work-session)
 3. [2026-10-11: ![Captura de pantalla 2026-10-11 215418](https://halflife.hackclub-assets.com/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/19c6640f740ccc0309b4596f90da0c1ecb33b9b45d55eb8b41037924ffa2d456.png)](#2026-10-11-captura-de-pantalla-2026-10-11-215418httpshalflif)
-4. [2026-10-27: Hoy terminé de organizar y corregir la documentación de mi proyecto Starbie. Primero, actualicé el README de GitHub para explicar mejor qué hice, cómo funcionan los controles y cómo se conectan los co](#2026-10-27-hoy-termin-de-organizar-y-corregir-la-documentaci)
+4. [2026-10-27: Today, I finished organizing and refining the documentation for my Starbie project. First, I updated the GitHub README to better explain what I built, how the controls function, and how the components](#2026-10-27-today-i-finished-organizing-and-refining-the-docu)
 
 ## Design
 
@@ -67,17 +67,17 @@ I also put together a video—it started as just an idea, and while it might not
 
 In short: I fixed PCB design errors in KiCad, improved the connections and project organization, uploaded the files to GitHub, and edited my video.
 
-### 2026-10-27: Hoy terminé de organizar y corregir la documentación de mi proyecto Starbie. Primero, actualicé el README de GitHub para explicar mejor qué hice, cómo funcionan los controles y cómo se conectan los co
+### 2026-10-27: Today, I finished organizing and refining the documentation for my Starbie project. First, I updated the GitHub README to better explain what I built, how the controls function, and how the components
 
 **3h**
 
-Hoy terminé de organizar y corregir la documentación de mi proyecto Starbie. Primero, actualicé el README de GitHub para explicar mejor qué hice, cómo funcionan los controles y cómo se conectan los componentes al XIAO ESP32-C3. También agregué información sobre el firmware, las librerías necesarias y la lista de materiales para que cualquier persona que visite el repositorio pueda entender mejor el proyecto.
+Today, I finished organizing and refining the documentation for my Starbie project. First, I updated the GitHub README to better explain what I built, how the controls function, and how the components connect to the XIAO ESP32-C3. I also added information regarding the firmware, the necessary libraries, and a bill of materials (BOM) so that anyone visiting the repository can better understand the project.
 
-Después revisé los materiales que necesito para construirlo y me di cuenta de que faltaban algunos componentes importantes, como el MPU6050, la resistencia de 10 kΩ, la PCB y las keycaps. También corregí el plan de los botones, porque los de 6×6 mm que tenía anotados no son compatibles con las huellas MX del diseño, así que ahora necesito utilizar switches mecánicos compatibles. Además, revisé la necesidad de utilizar pines macho para conectar los módulos.
+Next, I reviewed the materials required for construction and realized that several key components were missing—specifically the MPU6050, a 10 kΩ resistor, the PCB, and the keycaps. I also corrected the button specifications; the 6×6 mm buttons I had previously noted are not compatible with the MX footprints in the design, so I now need to use compatible mechanical switches. Additionally, I assessed the need for male header pins to connect the various modules.
 
-Por último, organicé mejor toda la información del proyecto en GitHub y dejé documentadas las funciones principales, los controles y los componentes necesarios. Ahora el repositorio está mucho más completo y es más fácil entender cómo funciona Starbie y qué necesito para terminar de construirlo físicamente.
+Finally, I reorganized the project information on GitHub, ensuring that the core functions, controls, and required components are clearly documented. The repository is now much more comprehensive, making it easier to understand how Starbie works and what is needed to complete its physical assembly.
 
-En resumen: actualicé el README, documenté el firmware y los controles, revisé la lista de materiales y corregí los componentes incompatibles. Ya quedó mucho más organizada la parte de documentación y diseño; ahora el siguiente paso es conseguir las piezas y comprobar que todo funcione al ensamblarlo.
+In short: I updated the README, documented the firmware and controls, reviewed the bill of materials, and corrected incompatible component specifications. The documentation and design aspects are now much better organized; the next step is to acquire the parts and verify that everything functions correctly once assembled.
 
 ![Captura de pantalla 2026-10-27 105432](https://halflife.hackclub-assets.com/sessions/QsjCgCNzaMfnx2G3q08HO8nNNTzuatdM/ae047067a12ebab20238453de3174a78c3bae3e1a97697afdd6f51b8342caa3a.png)
 
